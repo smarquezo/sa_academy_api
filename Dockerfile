@@ -7,7 +7,7 @@ WORKDIR /git/academy-api
 COPY package.json /git/academy-api/
 RUN npm install
 
-# Bundle app source
+# Bundle app source 
 COPY . /git/academy-api/
 RUN npm run prepublish
 
